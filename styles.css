@@ -33,6 +33,7 @@
 text-align: center;
 letter-spacing: 100px;
 margin: 20px;
+
 }
 
 
@@ -45,3 +46,41 @@ margin: 20px;
             font-weight: bold;
         }
 
+#cars {
+    display: flex;
+    width: 300px;
+}
+
+.formTable {
+    display: inline-flex;
+    width: 20%;
+    margin: 50px;
+
+
+}
+
+#pageText {
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+    font-size: large;
+}
+
+th {
+    border: 1px solid;
+    padding: 5px;
+    font-size: large;
+    background-color: aquamarine;
+}
+.box {
+    display: block;
+    border: solid;
+
+    margin: 20px;
+  
+}

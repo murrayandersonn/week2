@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+  <link rel="stylesheet" href="styles.css">
+
   <!--Page Navigation-->
- <h4><a href=index.html>Home</a> <a href=page1.html>Page 1</a> <a href=page2.html>Page 2</a> <a href=page3.html>Page 3</a></h4>
+  <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page1.html">Pets and Fiancee</a></li>
+      <li><a href="page2.html">Cars and Music</a></li>  
+      <li><a href="page3.html">Outdoors</a></li>
+    </ul>
+
     
 </head>
 
@@ -18,19 +26,22 @@
     <h2>Cars and Music</h2>
   </div>
   <!--Images of my 3 cars-->
-    <img src="images\350z.jpg" width="300"> <img src="images\accord.jpg" width="300"> <img src="images\xterra.png" width="300">
-
+  <div class="image">
+    <img src="images\350z.jpg" width="300"> <img src="images\accord.jpg" width="400"> <img src="images\xterra.png" width="420">
+  </div>
   <!--Car Section Title-->
-  <h2>My Cars</h2>
-
+  <div class="pageTitle">
+    <h2>My Cars</h2>
+  </div>
     <!--Here I explain the pictures above. I also added another hyperlink to relevant information, maximizing user maneuverability-->
-    <p>I used to have a 350z, but I just sold it. I still drive my Accord and my Xterra. My Accord is my daily driver and I use the Xterra for adventures off road and camping, which you can learn more about it on the <a href=page2.html.>next page</a>. I love to drive my cars and go to car meets with my friends. 
+    <p id="pageText">I used to have a 350z, but I just sold it. I still drive my Accord and my Xterra. My Accord is my daily driver and I use the Xterra for adventures off road and camping, which you can learn more about it on the <a href=page2.html.>next page</a>. I love to drive my cars and go to car meets with my friends. 
       My dream car is a Nissan R35 GTR and I hope to own one in the future, further along in my career.</p>
 
-  <fieldset>
+  <fieldset class="box">
     <!--Here I have a form that allows the user to select their favorite car of the 3 pictures. I had a mentor help set this up with pictures next to each image so users know which car is which-->
-        <legend>Which car do you prefer?</legend>
-    <form> 
+<div class="formTable">
+      <legend>Which car do you prefer?</legend>
+      <form id="cars"> 
       <div>
           <input type="radio" id="350z" name="car" value="350z" checked />
           <label for="350z">350z</label>
@@ -48,42 +59,45 @@
           <label for="Xterra">Xterra</label>
           <img src="images\xterra.png" width="100">
         </div>
+        <table class="formTable">
+          <tr>
+            <th>--</td>
+            <th>350z</th>
+            <th>Accord</th>
+            <th>Xterra</th>
+          </tr>
+          <tr>
+            <th>Engine</th>
+            <td>V6</td>
+            <td>I4</td>
+            <td>V6</td>
+          </tr>
+      
+          <tr>
+            <th>Transmission</th>
+            <td>Manual</td>
+            <td>Auto</td>
+            <td>Manual</td>
+          </tr>
+      
+          <tr>
+            <th>Drivetrain</th>
+            <td>RWD</td>
+            <td>FWD</td>
+            <td>4WD</td>
+          </tr>
+        </table>
       </fieldset>
     <input type="button" value="Submit">
   <form>
-<!--This table just gives some more information about the cars-->
-  <table>
-    <tr>
-      <td>--</td>
-      <td>350z</td><br>
-      <td>Accord</td><br>
-      <td>Xterra</td><br>
-    </tr>
-    <tr>
-      <td>Engine</td>
-      <td>V6</td>
-      <td>I4</td>
-      <td>V6</td>
-    </tr>
-
-    <tr>
-      <td>Transmission</td>
-      <td>Manual</td>
-      <td>Auto</td>
-      <td>Manual</td>
-    </tr>
-
-    <tr>
-      <td>Drivetrain</td>
-      <td>RWD</td>
-      <td>FWD</td>
-      <td>4WD</td>
-    </tr>
-  </table>
+ 
+</div>   
     <br><br>
   <!--Music section-->
+<div class="pageTitle">
   <h2>My music interests</h2>
-  <p>I am a huge music nerd. I have been playing bass guitar for about 3 years and I love to listen to all kinds of music. Right now I have been listening to a lot of 80s rock and 60s/70s psyche rock.
+</div>
+  <p id="pageText">I am a huge music nerd. I have been playing bass guitar for about 3 years and I love to listen to all kinds of music. Right now I have been listening to a lot of 80s rock and 60s/70s psyche rock.
     I love to find new music and listen to things I haven't heard before. I spend a lot of time searching the internet for hidden gems and things I wouldn't normally listen to so I can expand my musical palate.
   </p>
 </body>
