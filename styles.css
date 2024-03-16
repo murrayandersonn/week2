@@ -1,0 +1,47 @@
+.nav{
+    text-align: center;
+    border: solid;
+    background-color:lightgoldenrodyellow
+}
+
+        .nav li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 5px;
+            margin: 20px;
+        }
+
+.pageTitle {
+    text-align: center;
+    border: solid;
+    align-content: center;
+}
+
+#container {
+    display: flex;
+    text-align: center;
+    font-size: large;
+}
+
+        #container div {
+            border: solid;
+            margin: 20px;
+        }
+
+
+.image {
+text-align: center;
+letter-spacing: 100px;
+margin: 20px;
+}
+
+
+.animals {
+     border: solid;
+     margin: 20px;
+    }
+
+        .animals li {
+            font-weight: bold;
+        }
+
