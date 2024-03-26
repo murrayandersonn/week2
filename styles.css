@@ -1,3 +1,4 @@
+/*this is my navigation bar. I gave it a little bit of color and some spacing */
 .nav{
     text-align: center;
     border: solid;
@@ -10,13 +11,13 @@
             padding: 5px;
             margin: 20px;
         }
-
+/*this class is for all my page titles. simple border and centered*/
 .pageTitle {
     text-align: center;
     border: solid;
     align-content: center;
 }
-
+/*this part took me a little longer to figure out how to get three boxes next to each other*/
 #container {
     display: flex;
     text-align: center;
@@ -28,7 +29,7 @@
             margin: 20px;
         }
 
-
+/*this class is for all of my images to be centered and spaced similarly throughout the website*/
 .image {
 text-align: center;
 letter-spacing: 100px;
@@ -36,39 +37,35 @@ margin: 20px;
 
 }
 
-
-.animals {
+/*put a border around pet list and made their names bold*/
+#animals {
      border: solid;
      margin: 20px;
     }
 
-        .animals li {
+        #animals li {
             font-weight: bold;
         }
-
+/*makes the list flex instead of block*/
 #cars {
     display: flex;
     width: 300px;
 }
 
-.formTable {
-    display: inline-flex;
-    width: 20%;
-    margin: 50px;
 
 
-}
-
+/*paragraph text, bordered*/
 #pageText {
     border: solid;
     margin: 20px;
     padding: 20px;
 }
-
+/*colored my table, and border around each value*/
 td {
     border: 1px solid;
     padding: 5px;
     font-size: large;
+    background-color: lightblue;
 }
 
 th {
@@ -77,10 +74,11 @@ th {
     font-size: large;
     background-color: aquamarine;
 }
+/*groups my form and table together*/
 .box {
     display: block;
     border: solid;
-
     margin: 20px;
+    padding: 30px;
   
 }
